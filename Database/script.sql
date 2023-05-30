@@ -1,0 +1,13 @@
+CREATE DATABASE Formulario;
+
+use Formulario;
+
+CREATE TABLE Usuarios(
+  ID_Usuario INT(11) PRIMARY KEY AUTO_INCREMENT,
+  Nombre VARCHAR(100) NOT NULL,
+  Usuario VARCHAR(16) NOT NULL,
+  Contrasena VARCHAR(16) NOT NULL,
+  Email VARCHAR(70) NOT NULL
+);
+
+
